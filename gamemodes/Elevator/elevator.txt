@@ -1,0 +1,29 @@
+"Gamemode"
+{
+	"title"			"Elevator: Source"
+	"base"			"base"
+	"maps"			"elevator"
+	"menusystem" 	"1"
+	"workshopid"	"158915836"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"elev_cooldown"
+			"text"		"Slap Cooldown"
+			"help"		"Should there be a cooldown between slaps?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		2
+		{
+			"name"		"elev_slapforce"
+			"text"		"Slap Force"
+			"help"		"The amount of power to exert from your hand"
+			"type"		"Numeric"
+			"default"	"400"
+		}
+	}
+}
